@@ -1,20 +1,11 @@
 <?php
-
 class Home extends CI_Controller{
     public function index()
     {
-        echo 'Study Web Framewok';
-    
+        echo 'web';
     }
     public function mahasiswa()
     {
-        return $this->load->view('v_mahasiswa');
-        
+        return $this->load->view('v_mahasiswa'); 
     }
-
-
-
 }
-    
-
-
